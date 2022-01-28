@@ -26,7 +26,7 @@ net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 
 # %%
 #load our input image and grab its spatial dimensions
-image = cv2.imread('../data/images/weed_1.jpeg')
+image = cv2.imread('../data/images/3.png')
 (H, W) = image.shape[:2]
 
 # %%
